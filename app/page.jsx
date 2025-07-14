@@ -1,5 +1,3 @@
-'use client';
-console.log("Home page loaded");
 'use client'
 import React, { useState } from 'react'
 
