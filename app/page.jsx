@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 
 export default function HomePage() {
-  console.log("Página principal cargada");
+  console.log("Página /home cargada");
 
   const [form, setForm] = useState({ name: '', company: '', email: '', role: '' });
   const [loading, setLoading] = useState(false);
